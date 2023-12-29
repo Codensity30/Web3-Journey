@@ -132,4 +132,7 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# Remix
+.deps
+
 # End of https://www.toptal.com/developers/gitignore/api/solidity
