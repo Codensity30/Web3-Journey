@@ -2,6 +2,14 @@
 pragma solidity ^0.8.22;
 
 contract SimpleStorage{
+
+    uint public favNum;
+
+    // function to update the favNum value
+    function setFavNum(uint _favNum) public virtual  {
+        favNum = _favNum;
+    }
+
     // custom data type to represent person
     struct PersonFavNum{
         uint favNum;
